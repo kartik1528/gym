@@ -1,0 +1,459 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheFitnessGym</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div.nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            width: 100%;
+            position: fixed;
+        }
+
+        .nav-bar-image {
+            padding-left: 15px;
+        }
+
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            font-size: 2em;
+            margin-right: 25px;
+            padding: 5px;
+        }
+
+        .slider {
+            display: flex;
+            padding-top: 74px;
+        }
+
+        .slider-image img {
+            /* height: 900px;
+            width: 1350px;
+            object-fit: contain; */
+
+            height: 400px;
+            width: 400px;
+            object-fit: contain;
+            padding-left: 25px;
+        }
+
+        .welcome {
+            /* margin-top: 40px; */
+            text-align: center;
+            color: red;
+            font-size: 3em;
+        }
+
+        .wel-desc {
+            /* margin-top: 15px; */
+            /* margin-bottom: 30px; */
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .static {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .row-image img {
+            width: 320;
+            height: 280px;
+        }
+
+        .row-image figcaption {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .desc {
+
+            color: white;
+            font-size: 2em;
+
+        }
+
+        .about-gym {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* .about-gym .desc {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        } */
+
+
+
+        .about-gym img {
+            padding-right: 20px;
+            padding-bottom: 35px;
+            height: 500px;
+
+        }
+
+
+        .desc h2 {
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 3em;
+            color: red;
+            justify-content: center;
+            /* margin-top: 20px; */
+            /* margin-bottom: 15px; */
+        }
+
+
+
+        .deals {
+            display: flex;
+            background-color: black;
+        }
+
+        .deals .box-image img {
+            height: 400px;
+            width: 400px;
+            object-fit: contain;
+            padding-left: 25px;
+        }
+
+        .deals-msg {
+            font-size: 3em;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: red;
+        }
+
+        .gym-ben {
+            display: flex;
+        }
+
+        .gym-ben h1 {
+            padding-top: 25px;
+            padding-bottom: 25px;
+            text-align: center;
+            text-transform: capitalize;
+            /* to change the text to lower upper proper*/
+            color: blue;
+        }
+
+        .gym-ben .msg-ben {
+            text-transform: capitalize;
+            font-size: 1em;
+            padding-left: 5px;
+
+        }
+
+        .city {
+            background-color: black;
+            padding: 20px;
+            color: white;
+            /* To make the text readable against the black background */
+        }
+
+        .city ul {
+            list-style: none;
+            margin: 10px;
+            column-count: 4;
+            /* Creates 4 columns for the list items */
+            column-gap: 20px;
+            /* Adds some space between the columns */
+        }
+
+        /*.city ul h1,
+        .city ul h2 {
+            margin: 0;
+            padding: 10px 0;
+            column-span: all;
+            Ensure headings span across all columns */
+
+
+        .city ul li {
+            padding: 5px 0;
+        }
+
+        .link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .link img {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            width: 35px;
+            height: 35px;
+        }
+
+        .copyright {
+            text-align: center;
+            font-size: 25px;
+            padding-bottom: 35px;
+        }
+
+        .all {
+            background-color: black;
+        }
+
+        .kartik {
+            color: yellow;
+            text-align: center;
+            font-size: 3em;
+            text-transform: capitalize;
+
+        
+        }
+        .up{
+            color: yellow;
+        }
+        .copyright{
+            color: white;
+        }
+    </style>
+</head>
+<body>        
+   
+    <div class="nav">
+        <div class="nav-bar-image">
+            <img src="https://www.thegym.in/img/thegym-logo.jpg" alt="thegym-logo">
+        </div>
+
+        <div class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Fitnesh.html">Fitness</a>
+            <a href="contact.html">Contact</a>
+            <a href="fqa.html">FAQ</a>
+
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider-image">
+            <img src="https://c4.wallpaperflare.com/wallpaper/58/891/653/sports-fitness-brunette-girl-wallpaper-preview.jpg"
+                alt="Gym-Girl">
+        </div>
+
+        <div class="slider-image">
+            <img src="https://img.freepik.com/premium-photo/attractive-hot-gym-girl-gym-suit-portrait_691309-550.jpg"
+                alt="Gym-Girl">
+        </div>
+
+        <div class="slider-image">
+            <img src="https://thumbs.dreamstime.com/b/beautiful-fitness-girl-perfect-shapes-sexy-shorts-posing-gym-dumbbell-barbell-powerlifting-sports-photo-329616460.jpg"
+                alt="Gym-Girl">
+        </div>
+    </div>
+
+    <div class="welcome"> Welcome To The Gym Girls!</div>
+    <div class="wel-desc">Take care of your body. It's the only place you have to live.</div>
+
+    <div class="static">
+        <figure class="row-image">
+            <figcaption>Boxing</figcaption>
+            <img src="https://c4.wallpaperflare.com/wallpaper/229/644/2/girl-sport-fitness-bodybuilding-the-gym-hd-wallpaper-preview.jpg"
+                alt="boxer-girl">
+        </figure>
+
+        <figure class="row-image">
+            <figcaption>Roxing</figcaption>
+            <img src="https://c4.wallpaperflare.com/wallpaper/107/462/498/abs-belly-body-dani-dikeman-wallpaper-preview.jpg"
+                alt="boxer-girl">
+        </figure>
+
+        <figure class="row-image">
+            <figcaption>Fitness</figcaption>
+            <img src="https://i0.wp.com/www.pictureperfectphoto.co.uk/wp-content/uploads/2023/07/HANNAH-ATTKINSON_174-1024x683.jpg"
+                alt="boxer-girl">
+        </figure>
+    </div>
+
+
+
+    <div class="static">
+        <figure class="row-image">
+            <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/Kendall-look-alike.jpg"
+                alt="boxer-girl">
+            <figcaption> FREE WEIGHTS </figcaption>
+        </figure>
+
+        <figure class="row-image">
+            <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/Kendall-look-alike.jpg"
+                alt="boxer-girl">
+            <figcaption> POWER YOGA</figcaption>
+        </figure>
+
+        <figure class="row-image">
+            <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/Kendall-look-alike.jpg"
+                alt="boxer-girl">
+            <figcaption>ZUMBA</figcaption>
+
+            <span>
+        </figure>
+    </div>
+    <article class="about-gym">
+        <div class="desc">
+
+            <h2> Our Story </h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ut illo tenetur dignissimos
+                eligendi, deserunt autem ex doloremque, sint rem quasi eaque fugiat quod assumenda mollitia voluptas
+                laborum
+                placeat necessitatibus.
+                dolor sit amet consectetur adipisicing elit. Nostrum ut illo tenetur dignissimos
+                eligendi, deserunt autem ex doloremque, sint rem quasi eaque fugiat quod assumenda mollitia voluptas
+                laborum
+                placeat necessitatibus, eligendi, deserunt autem ex doloremque, sint rem quasi eaque fugiat quod
+                assumenda
+                mollitia voluptas
+                laborum
+                placeat necessitatibus,
+
+
+            </p>
+        </div>
+
+
+        <img src="https://lifeliker.in/gallary/Rashmika-hd-photos/images/2020-10-15%2011:11:42.jpg" alt="about-image">
+
+    </article>
+
+    <h1 class="deals-msg">HOT DEALS</h1>
+
+    <div class="deals">
+        <div class="box-image">
+            <img src="https://c4.wallpaperflare.com/wallpaper/58/891/653/sports-fitness-brunette-girl-wallpaper-preview.jpg"
+                alt="Gym-Girl">
+        </div>
+
+        <div class="box-image">
+            <img src="https://img.freepik.com/premium-photo/attractive-hot-gym-girl-gym-suit-portrait_691309-550.jpg"
+                alt="Gym-Girl">
+        </div>
+        <div class="box-image">
+            <img src="https://thumbs.dreamstime.com/b/beautiful-fitness-girl-perfect-shapes-sexy-shorts-posing-gym-dumbbell-barbell-powerlifting-sports-photo-329616460.jpg"
+                alt="Gym-Girl">
+        </div>
+    </div>
+
+    <h1 class="deals-msg">Why the Gym?</h1>
+
+
+    <div class="gym-ben">
+        <div class="gym-up">
+            <div class="msg-ben">
+                <h1>support</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aspernatur assumenda facilis
+                    rerum
+                    perspiciatis earum fugit animi. Harum exercitationem quae recusandae excepturi dolorem fugit numquam
+                    cum
+                    dolore sit suscipit? At.</p>
+            </div>
+            <div class="msg-ben">
+                <h1>Regular</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aspernatur assumenda facilis
+                    rerum
+                    perspiciatis earum fugit animi. Harum exercitationem quae recusandae excepturi dolorem fugit numquam
+                    cum
+                    dolore sit suscipit? At.</p>
+            </div>
+        </div>
+
+        <div class="gym-down">
+            <div class="msg-ben">
+                <h1>Comminite</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aspernatur assumenda facilis
+                    rerum
+                    perspiciatis earum fugit animi. Harum exercitationem quae recusandae excepturi dolorem fugit numquam
+                    cum
+                    dolore sit suscipit? At.</p>
+            </div>
+            <div class="msg-ben">
+                <h1>Traing</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aspernatur assumenda facilis
+                    rerum
+                    perspiciatis earum fugit animi. Harum exercitationem quae recusandae excepturi dolorem fugit numquam
+                    cum
+                    dolore sit suscipit? At.</p>
+            </div>
+        </div>
+
+    </div>
+    <footer class="all">
+
+        <h1 class="deals-msg">Our network</h1>
+        <h2 class="kartik">City name</h2>
+
+        <div class="city">
+            <ul>
+
+                <h2 class="up">Kolkath</h2>
+                <li>patna</li>
+                <li>patna</li>
+                <li>patna</li>
+                <li>Keral</li>
+                <li>patna</li>
+                <li>patna</li>
+                <h2 class="up">Mumbai</h2>
+                <li>patna</li>
+                <li>Rajander Nager</li>
+                <li>patna</li>
+                <h2 class="up">uterpardesh</h2>
+                <li>patna</li>
+                <li>patna</li>
+                <li>Jamui</li>
+                <li>patna</li>
+                <li>patna</li>
+                <h2 class="up">Delhi</h2>
+                <li>patna</li>
+                <li>tolapur</li>
+                <li>nawada</li>
+                <li>patna</li>
+                <li>Gandhi nger</li>
+                <h2 class="up">Gujrat</h2>
+                <li>gaya</li>
+                <li>patna</li>
+
+
+        </div>
+        <div class="link">
+            <a href=""><img
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook2_colored_svg-256.png"
+                    alt="fb"></a>
+            <a href=""><img
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-256.png"
+                    alt="twitter"></a>
+            <a href=""><img
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-256.png"
+                    alt="whatsapp"></a>
+            <a href=""><img
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Youtube_colored_svg-256.png"
+                    alt="youtube"></a>
+        </div>
+        <p class="copyright">&copy All Right Reserved 2024</p>
+    </footer>
+
+
+</body>
+
+</html>
